@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
 
-export default function DisplayRaw() {
+import Slideshow from "../SlideShow/SlideShow";
+import styles from "./DisplayRow.module.css";
+import { movies } from "../../../src/Data/Data";
+function DisplayRow() {
   return (
-    <div>
-      
+    <div className={styles.mainWrapper}>
+      <Slideshow title="Movie suggestions" movies={movies} />
     </div>
-  )
+  );
 }
+export default DisplayRow;
