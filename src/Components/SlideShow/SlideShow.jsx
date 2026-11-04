@@ -3,12 +3,11 @@
 import React from "react";
 import styles from "./SlideShow.module.css";
 import MovieCard from "../MovieCard/MovieCard.jsx";
-
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import { Navigation } from "swiper/modules";
-import { Swiper } from 'swiper/react';
+//import { Swiper } from 'swiper/react';
 
 function Slideshow({ title, movies }) {
   return (

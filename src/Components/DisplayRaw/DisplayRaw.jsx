@@ -1,7 +1,7 @@
 import React from "react";
 
 import Slideshow from "../SlideShow/SlideShow";
-import styles from "./DisplayRow.module.css";
+import styles from "./DisplayRaw.module.css";
 import { movies } from "../../../src/Data/Data";
 function DisplayRow() {
   return (
