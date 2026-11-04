@@ -43,7 +43,7 @@
 
 // export default Banner;
 
-import React, { useEffect, useState } from "react";
+import  { useEffect, useState } from "react";
 import NetflixBannerLogo from "../../assets/image/logo.png";
 import { Play, Info } from "lucide-react";
 import style from "./Banner.module.css";
@@ -98,7 +98,7 @@ const Banner = () => {
 
         {/* description */}
         <h1 className={style.description}>
-          {/* {truncate(bannerImage?.overview, 120)} */}
+          {truncate(bannerImage?.overview, 120)}
         </h1>
 
         {/* buttons */}
@@ -113,7 +113,7 @@ const Banner = () => {
           </button>
         </div>
       </div>
-      ;{/* fading */}
+      {/* fading */}
       <div className={style.fadeBottom}></div>;
     </div>
   );
